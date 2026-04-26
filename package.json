@@ -1,11 +1,11 @@
 {
-  "name": "pi-treequest-parallel-processing",
+  "name": "@subho/pi-treequest-parallel-processing",
   "version": "1.0.0",
-  "description": "TreeQuest Parallel Processing - commands and documentation for multi-provider parallel AI orchestration in pi",
+  "description": "TreeQuest Parallel Processing - multi-provider AI orchestration for pi with parallel queries, smart routing, and agent coordination",
   "main": "src/index.ts",
   "keywords": [
-    "pi-extension",
     "pi-package",
+    "pi-extension",
     "treequest",
     "parallel-processing",
     "ai",
