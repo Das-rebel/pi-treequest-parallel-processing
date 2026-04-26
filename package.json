@@ -1,0 +1,35 @@
+{
+  "name": "pi-treequest-parallel-processing",
+  "version": "1.0.0",
+  "description": "TreeQuest Parallel Processing - commands and documentation for multi-provider parallel AI orchestration in pi",
+  "main": "src/index.ts",
+  "keywords": [
+    "pi-extension",
+    "pi-package",
+    "treequest",
+    "parallel-processing",
+    "ai",
+    "parallel",
+    "orchestrator",
+    "multi-provider"
+  ],
+  "author": "Subho",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subho/pi-treequest-parallel-processing"
+  },
+  "bugs": {
+    "url": "https://github.com/subho/pi-treequest-parallel-processing/issues"
+  },
+  "pi": {
+    "extensions": ["./src/index.ts"],
+    "skills": ["./skills"]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
